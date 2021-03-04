@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>alternato</title>
+  </head>
+  <style media="screen">
+    .til{
+      text-align: center;
+      color: red;
+    }
+  </style>
+  <body>
+    <h1 class="til">Array alternato</h1>
+  </body>
+  <script type="text/javascript">
+  // stampare un elemento ogni 2
+  var arr = [ 'hello', 'world', 'ciao', 'mondo', 'hola', 'mundo' ];
+
+      for (var i=0;i<arr.length;i++) {
+          var elem = arr[i];
+
+          if (elem.length % 2 == 0) {
+            console.log(elem);
+          }
+      }
+
+
+
+  </script>
+</html>
